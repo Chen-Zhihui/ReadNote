@@ -26,7 +26,7 @@ Printer(logLevel, args[, options])
 
 # UC
 
-## 在日志中使用表达式(`${expr}`)
+## 在日志中使用表达式(console.log(`${expr}`))
 
 ```js
 const regex1 = RegExp('foo*', 'g');
