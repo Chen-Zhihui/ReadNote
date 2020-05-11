@@ -44,3 +44,4 @@ str.charAt(2)
 ```
 
 ## compare/ignore case/
+TODO: string compare
