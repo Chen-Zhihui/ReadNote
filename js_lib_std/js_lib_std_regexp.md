@@ -109,3 +109,19 @@ x(?!y)  仅匹配不被y跟随的x
 ``` js
 let match = /^hello/.test(str);
 ```
+
+## 是否进行全局查找(flag=g)
+
+g选项使得正则表达式具有状态
+
+```js
+var regex = /foo/g;
+
+console.log(`test result=${regex.lastIndex}`)
+// regex.lastIndex is at 0
+regex.test('foo'); // true
+
+console.log(`test result=${regex.lastIndex}`)
+// regex.lastIndex is now at 3
+regex.test('foo'); // false
+```
