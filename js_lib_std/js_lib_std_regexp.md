@@ -93,10 +93,19 @@ x(?!y)  仅匹配不被y跟随的x
 
 # RegExp
 
+## property
+
+### lastindex，只有在g模式上才有意义
+
 ## method
 
-exec()
+### re.exec(str)
 
-test()
+### re.test(str)
 
 # UC
+
+## 只判断字符串是否与正则表达式吻合
+``` js
+let match = /^hello/.test(str);
+```
