@@ -66,3 +66,8 @@ soap.listen(server, {
     xmlKey: 'theXml'
 });
 ```
+
+# Java
+
+## WS + Reactive 的例子
+[Reactive Web Service Client with JAX-WS](https://godatadriven.com/blog/reactive-web-service-client-with-jax-ws/)
