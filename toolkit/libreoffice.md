@@ -1,0 +1,3 @@
+- [ ] 用子母文档管理文档段
+- [ ] 下载使用手册 [lulu.com](http://www.lulu.com/shop/libreoffice-documentation-team/libreoffice-60-writer-guide/paperback/product-23742757.html)
+- [ ] [官方文档](https://documentation.libreoffice.org/en/english-documentation/writer/)
